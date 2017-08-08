@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chaiteam.cafenear.cafenear.MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingBottom="?android:attr/dialogPreferredPadding"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Phone number, email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:elevation="0dp"
+        android:text="Log In"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="395dp"
+        android:layout_height="48dp"
+        android:text="Forget password"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="197dp"
+        android:layout_height="57dp"
+        android:backgroundTint="@android:color/white"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/googlelogo"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="197dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@android:color/white"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/fblogo"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="107dp"
+        app:srcCompat="@drawable/cafenearlogo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="34dp" />
+</android.support.constraint.ConstraintLayout>
